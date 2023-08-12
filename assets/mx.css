@@ -1,0 +1,112 @@
+body{
+	margin:-6px;
+	background:grey;
+}
+
+nav{
+	display:flex;
+	padding:2% 2%;
+	justify-content:space-between;
+	align-items:center;
+	background-color:blue;
+	height:16px;
+}
+.mx-streem{
+	top: 0%;
+	font-size: 0px;
+	font-weight:normal;
+	font-family:sans-serif;
+	text-decoration: none;
+	color:#fff;
+	list-style: none;
+	display: inline-block;
+	float: left;
+	left: -90px;
+}
+.btn{
+	padding-top: 0px;
+	font-weight:normal;
+	font-family:sans-serif;
+	text-decoration: none;
+	color:#fff;
+	width: 50px;
+	height: 20px;
+	float: right;
+}
+button.btn{
+	position: absolute;
+    top: 1.5%;
+    right: 5%;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	width: 60px;
+	border-radius: 20px;
+	height: 30px;
+	
+}
+
+.nav-links{
+	flex:6;
+	text-align:right;
+
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 10px;
+	position: relative;
+}
+ ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:sans-serif;
+	font-weight: normal;
+
+}
+ ul li::{
+	content:'' ;
+	width: 0%;
+	height: 2px;
+	background:#ff8c00;
+	margin: auto;
+	display: block;
+	transition: 0.5s;
+}
+ ul li:hover::{
+	width: 100%;
+
+}
+form{
+    position: absolute;
+    top: 1.5%;
+    right: 15%;
+    width: 250px;
+	height: 29px;
+	background: transparent;
+	border: 2px solid whitesmoke;
+	border-radius: 6px;
+	display: flex;
+	align-items:center;
+}
+form img{
+	width: 20px;
+	height: 20px;
+	outline: none;
+}
+ form .id{
+	background-color:transparent;
+	outline: none;
+	border: 0px;
+	cursor: pointer;
+}
+.search-bar input{
+	width: 100%;
+	background: transparent;
+	border: none;
+	color: whitesmoke;
+	outline: none;
+	font-size: 16px;
+}

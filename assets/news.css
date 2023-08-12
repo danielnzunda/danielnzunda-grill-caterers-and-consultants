@@ -1,0 +1,108 @@
+body{
+	background:orangered;
+	align-content: center;
+	padding: 40px;
+    font-family: sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/home/daniel/Desktop/grill/images/pairing wine chicken.jpg");
+    height: 400px;
+    width: auto;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    padding:2% 16%;
+    justify-content:space-between;
+    align-items:center;
+    background-color:none;
+    height:16px;
+
+}
+.gill-catering{
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight:bold;
+    font-family:cursive;
+    text-decoration: none;
+    color:orange;
+    list-style: none;
+    display: inline-block;
+
+}
+.menu img{
+    position:absolute;
+    top: 0px;
+    left: 90%;
+    border-radius:40px;
+    outline: 3px;
+    background:transparent;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding: 0;
+    display: none;
+    
+}
+.nav-links{
+    flex:6;
+    text-align:right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:ghostwhite;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+.nav-links ul li::after{
+    content:'' ;
+    width: 0%;
+    height: 2px;
+    background:orange;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.section{
+    color:whitesmoke;
+    padding: 20px;
+}
+.section h4{
+    text-align: center;
+}
+h2{
+    padding: 80px;
+    text-align: center;
+    color:whitesmoke;
+    font-family: monospace;
+    font-size: 40px;
+}
+h3{
+    padding-top: 0%;
+    text-align: center;
+    color:whitesmoke;
+    font-family: monospace;
+    font-size: 30px;
+    margin: 16px;
+
+}
+.four{
+    padding: 20px;
+    margin: auto;
+
+}

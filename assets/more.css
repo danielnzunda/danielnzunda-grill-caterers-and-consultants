@@ -1,0 +1,140 @@
+body{
+    margin:-6px;
+    overflow-x:hidden;
+}
+.gill-catering{
+    padding-top:20px;
+    padding-top:5px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family:helvetica;
+    text-transform: uppercase;
+    text-transform:;
+    text-decoration: none;
+    color:#F3525A;
+    list-style: none;
+    display: inline-block;
+
+}
+.nav-links{
+    flex:6;
+    text-align:right;
+    margin-right:10%;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 16px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:#152440;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:helvetica;
+    text-transform: uppercase;
+    font-weight: normal;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li a:hover{
+    color:#F3525A;
+
+}
+
+header{
+    position: fixed;
+    z-index:100000;
+    width: 100%;
+    transition: 0.6s;
+}
+header.sticky{
+    width: 100%;
+    transition: 0.6s;
+}
+header.sticky nav{
+    
+}
+
+.banner{
+    position:relative;
+}
+#preloader{
+    background:#fff url(/work/images/icons8-spinner.gif) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+nav{
+    display:flex;
+    padding:3% 5%;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    background-color:whitesmoke;
+    height:20px;
+    box-shadow: 0 3px 15px rgb(0, 0, 0,0.7);
+}
+nav img{
+    width: 250px;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom:0px;
+    padding: 0px;
+    left: 0px;
+}
+
+.section{
+    color:whitesmoke;
+    padding: 20px;
+}
+.section h4{
+    text-align: center;
+}
+h2{
+    padding: 80px;
+    text-align: center;
+    color:whitesmoke;
+    font-family: monospace;
+    font-size: 40px;
+}
+h3{
+    padding-top: 0%;
+    text-align: center;
+    color:#152440;
+    font-family:helvetica;
+    font-size: 30px;
+
+}
+.cc-t-h{
+    display: flex;
+    padding:3% 5% 0% 5%;
+    justify-content: space-between;
+}
+
+.m-cos{
+
+    padding:10% 5% 5% 5%;
+    height:auto;
+    width:100%;
+    float: right;
+    align-items: center;
+    align-content: center;
+    background:#F3525A;
+    justify-content: center;
+    color:whitesmoke;
+    font-family: helvetica;
+
+}
+p {
+   margin: 20px;
+    color: whitesmoke;
+    text-align: none;
+    font-family: sans-serif;
+}

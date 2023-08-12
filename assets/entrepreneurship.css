@@ -1,0 +1,38 @@
+.entrepreneu{
+	width:auto;
+	background:whitesmoke;
+    position: relative;
+    height:auto;
+    display: flex;
+    padding:50px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.item-m{
+    padding:20px;
+ 
+}
+
+.title-p{
+	font-family: helvetica;
+	color:#152440;
+	font-size: 25px;
+	padding:20px;
+	text-align: center;
+}
+.entrepreneu img{
+	align-items: center;
+	justify-content: center;
+	width: 80px;
+	margin-left: 25%;
+	height: 80px;
+	border-radius: 70px;
+}
+.item-m p{
+	text-align: left;
+	color:#152440;
+	display: flex;
+}
+
+
